@@ -25,7 +25,7 @@ function RegisterForm() {
         localStorage.setItem("token", response.jwt);
         localStorage.setItem("userName", response.name);
         navigate("/board");
-  //  }
+  //   }
     }
     
 }
