@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseURL = process.env.REACT_APP_BASE_URL;
+const baseURL = process.env.URL;
 
 
 export const registerUser = async ({ name, email, password }) => {
