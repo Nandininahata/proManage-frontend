@@ -22,7 +22,7 @@ function Dashboard() {
         </div>
 
         <div className={styles.hover_container}>
-          <div onClick={()=>{navigate("/");}} className={styles.tab_container}>
+          <div onClick={()=>{navigate("/board");}} className={styles.tab_container}>
             <img className={styles.logo_image} src={boardLogo}></img>
             <h1 className={styles.tab_heading}>Board</h1>
           </div>
