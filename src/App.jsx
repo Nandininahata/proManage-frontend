@@ -16,7 +16,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* <Route element={<PrivateWrapper />}>  for protecting routes to be uncommented in future in prod*/}
-          <Route path="/" element={<BoardPage />} />
+          <Route path="/" element={<LoginPage />} />
+        <Route path="/board" element={<BoardPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="/analytics" element={<AnalyticsPage />} />
         {/* </Route> */}
