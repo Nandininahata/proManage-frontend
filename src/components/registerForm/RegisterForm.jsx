@@ -20,12 +20,12 @@ function RegisterForm() {
     event.preventDefault(); //to prevent reload
     if(form.password===form.confirmPassword){
       const response=await registerUser({name:form.name,email:form.email,password:form.password});
-      if(response){
+    //  if(response){
         console.log(response);
         localStorage.setItem("token", response.jwt);
         localStorage.setItem("userName", response.name);
-        navigate("/");
-    }
+        navigate("/login");
+  //  }
     }
     
 }
